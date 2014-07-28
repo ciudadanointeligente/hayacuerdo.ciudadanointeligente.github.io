@@ -2,12 +2,12 @@
 layout: default
 ---
 
-asdaf
-
+Fight!
+<div class="allPositions"></div>
 <script type="text/javascript">
   window.onload = function() { init() };
 
-  var public_spreadsheet_url = 'https://docs.google.com/spreadsheets/d/1j7XjeGe4OJ8vYtDwx_ipOvR0z5gsafVnh9b37-CJ58A/pubhtml';
+  var public_spreadsheet_url = "{{ site.gsheet }}";
 
   function init() {
     Tabletop.init( { key: public_spreadsheet_url,
@@ -16,7 +16,13 @@ asdaf
   }
 
   function showInfo(data, tabletop) {
-    alert("Successfully processed!")
-    console.log(data);
+    var allPositions = $(".allPositions");
+    $.each(data, function(index, row){
+    	var p1 = "<span class='postura postura1'>"+row.postura1+"</span>"
+    	var p2 = "<span class='postura postura2'>"+row.postura2+"</span>"
+    	var positionContainer = "<div class='"+row.class+" position'>"+p1+p2+"</div>";
+    	allPositions.append(positionContainer)
+
+    })
   }
 </script>
