@@ -3,26 +3,6 @@ layout: default
 ---
 
 **Fight!**  El link
-<div class="allPositions"></div>
-<script type="text/javascript">
-  window.onload = function() { init() };
 
-  var public_spreadsheet_url = "{{ site.gsheet }}";
 
-  function init() {
-    Tabletop.init( { key: public_spreadsheet_url,
-                     callback: showInfo,
-                     simpleSheet: true } )
-  }
-
-  function showInfo(data, tabletop) {
-    var allPositions = $(".allPositions");
-    $.each(data, function(index, row){
-    	var p1 = "<span class='postura postura1'>"+row.postura1+"</span>"
-    	var p2 = "<span class='postura postura2'>"+row.postura2+"</span>"
-    	var positionContainer = "<div class='"+row.class+" position'>"+p1+p2+"</div>";
-    	allPositions.append(positionContainer)
-
-    })
-  }
-</script>
+{% include googlecontent.html %}
