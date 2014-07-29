@@ -2,7 +2,7 @@
 layout: default
 ---
 
-Fight!
+**Fight!**  El link
 <div class="allPositions"></div>
 <script type="text/javascript">
   window.onload = function() { init() };
