@@ -6,13 +6,14 @@
     <head>
         {% include head.html %}
     </head>
-    <body>
+    <body class="index"> 
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
       <div class="container">
-        <div class="collapse navbar-collapse bs-navbar-collapse">
+        <!-- Version anterior
+		<div class="collapse navbar-collapse bs-navbar-collapse">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
             <span class="sr-only">Toggle navigation</span>
           </button>
@@ -24,11 +25,48 @@
             <li><a class="navbar-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
             {% endfor %}
           </ul>
-          
-        </div>
+           
+        </div>-->
+		<!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#page-top">¿Hay Acuerdo?</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#portfolio">Reforma Tributaria</a>
+                    </li>
+                </ul>
+            </div>
       </div>
     </div>
 
+	<!-- Header -->
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <img class="img-responsive" src="img/portada1.jpg" alt="">
+                    <div class="intro-text">
+                        <span class="skills">Infórmate sobre los los puntos de vista de diversos actores sociales con respecto a la Reforma Tributaria.<br>
+						Elige dos y compara sus posiciones.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+	
     <!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="jumbotron">
       {% include header.html %}

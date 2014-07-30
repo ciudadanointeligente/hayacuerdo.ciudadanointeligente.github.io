@@ -1,4 +1,5 @@
 <div class="allPositions"></div>
+
 <script type="text/javascript">
   window.onload = function() { init() };
 
@@ -13,9 +14,9 @@
   function showInfo(data, tabletop) {
     var allPositions = $(".allPositions");
     $.each(data, function(index, row){
-    	var p1 = "<span class='postura postura1'>"+row.postura1+"</span>"
-    	var p2 = "<span class='postura postura2'>"+row.postura2+"</span>"
-    	var positionContainer = "<div class='"+row.class+" position'>"+p1+p2+"</div>";
+    	var p1 = "<span class='postura postura1 col-md-6'>"+row.postura1+"</span>"
+    	var p2 = "<span class='postura postura2 col-md-6'>"+row.postura2+"</span>"
+    	var positionContainer = "<div class='"+row.class+" position row'>"+p1+p2+"</div>";
     	allPositions.append(positionContainer)
 
     })
