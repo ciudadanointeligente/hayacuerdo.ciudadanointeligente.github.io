@@ -36,6 +36,16 @@ h6 {
     font-weight: 400;
 }
 
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.clearfix {
+  *zoom: 1;
+}
+
 hr.star-light,
 hr.star-primary {
     margin: 25px auto 30px;
