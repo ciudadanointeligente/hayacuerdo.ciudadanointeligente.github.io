@@ -1,0 +1,41 @@
+
+.position {
+	position: relative;
+	height: 50px;
+	}
+
+.postura {
+	width: 200px;
+	position: absolute;
+	padding: 10px;
+}	
+
+.acuerdo-total .postura1 {
+	right: 0;
+	background: green;
+	}
+	
+.acuerdo-total .postura2 {
+	left: 0;
+	background: green;
+	}
+
+.no-acuerdo .postura1 {
+	left: 0;
+	background: red;
+	}
+	
+.no-acuerdo .postura2 {
+	right: 0;
+	background: red;
+	}
+
+.acuerdo-parcial .postura1 {
+	left: 33%;
+	background: yellow;
+	}
+	
+.acuerdo-parcial .postura2 {
+	right: 33%;
+	background: yellow;
+	}
