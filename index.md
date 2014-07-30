@@ -2,7 +2,7 @@
 layout: default
 ---
 
-**Fight!**  El link
+Actores a comparar
 
 
 {% include googlecontent.html %}
