@@ -1,7 +1,7 @@
 
 .position {
 	position: relative;
-	height: 50px;
+	height: 60px;
 	}
 
 .postura {
@@ -12,30 +12,30 @@
 
 .acuerdo-total .postura1 {
 	right: 0;
-	background: green;
+	background: #3DB191;
 	}
 	
 .acuerdo-total .postura2 {
 	left: 0;
-	background: green;
+	background: #3DB191;
 	}
 
 .no-acuerdo .postura1 {
 	left: 0;
-	background: red;
+	background: #EB6956;
 	}
 	
 .no-acuerdo .postura2 {
 	right: 0;
-	background: red;
+	background: #EB6956;
 	}
 
 .acuerdo-parcial .postura1 {
 	left: 33%;
-	background: yellow;
+	background: #FFD523;
 	}
 	
 .acuerdo-parcial .postura2 {
 	right: 33%;
-	background: yellow;
+	background: #FFD523;
 	}
