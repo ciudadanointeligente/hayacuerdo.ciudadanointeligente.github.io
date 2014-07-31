@@ -6,6 +6,10 @@
 
 body {
     overflow-x: hidden;
+    font-family: 'Open Sans', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-shadow: rgba(0,0,0,.01) 0 0 1px;
+    text-shadow: rgba(0,0,0,.01) 0 0 1px;
 }
 
 p {
@@ -32,7 +36,6 @@ h4,
 h5,
 h6 {
     text-transform: uppercase;
-    font-family: Open+Sans,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 400;
 }
 
@@ -80,10 +83,10 @@ header .intro-text .skills {
 }
 
 .jumbotron {
-padding: 30px;
-margin-bottom: 30px;
-color: inherit;
-background: #37465D;
+    padding: 30px;
+    margin-bottom: 30px;
+    color: #fff;
+    background: #37465D;
 }
 
 @media(min-width:768px) {
