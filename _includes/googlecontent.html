@@ -1,9 +1,5 @@
----
-layout: default
----
-
-Fight!
 <div class="allPositions"></div>
+
 <script type="text/javascript">
   window.onload = function() { init() };
 
@@ -18,9 +14,9 @@ Fight!
   function showInfo(data, tabletop) {
     var allPositions = $(".allPositions");
     $.each(data, function(index, row){
-    	var p1 = "<span class='postura postura1'>"+row.postura1+"</span>"
-    	var p2 = "<span class='postura postura2'>"+row.postura2+"</span>"
-    	var positionContainer = "<div class='"+row.class+" position'>"+p1+p2+"</div>";
+    	var p1 = "<div class='col-md-6'><div class='postura1 postura'><p>"+row.postura1+"</p></div></div>"
+    	var p2 = "<div class='col-md-6'><div class='postura2 postura'><p>"+row.postura2+"</p></div></div>"
+    	var positionContainer = "<div class='"+row.class+" row position'>"+p1+p2+"</div>";
     	allPositions.append(positionContainer)
 
     })
