@@ -12,14 +12,31 @@
 	color: #fff;
 }	
 
+.postura p {
+	position: relative;
+	font-size: 12px;
+}
+
 .acuerdo-total .postura1 {
-	right: 0;
+	right: 17%;
 	background: #3DB191;
+	}
+
+.acuerdo-total .postura1 p:after {
+	content: url(../img/acuerdototalizq.svg);
+	position: absolute;
+	left: 201px;
 	}
 	
 .acuerdo-total .postura2 {
-	left: 0;
+	left: 17%;
 	background: #3DB191;
+	}
+
+.acuerdo-total .postura2 p:before {
+	content: url(../img/acuerdototalder.svg);
+	position: absolute;
+	right: 201px;
 	}
 
 .no-acuerdo .postura1 {
@@ -27,17 +44,41 @@
 	background: #EB6956;
 	}
 	
+.no-acuerdo .postura1 p:after {
+	content: url(../img/noacuerdoizq.svg);
+	position: absolute;
+	left: 196px;
+	}
+
 .no-acuerdo .postura2 {
 	right: 0;
 	background: #EB6956;
+	}
+
+.no-acuerdo .postura2 p:before {
+	content: url(../img/noacuerdoder.svg);
+	position: absolute;
+	right: 196px;
 	}
 
 .acuerdo-parcial .postura1 {
 	left: 33%;
 	background: #FFD523;
 	}
+
+.acuerdo-parcial .postura1 p:after {
+	content: url(../img/acuerdoparcializq.svg);
+	position: absolute;
+	left: 200px;
+	}
 	
 .acuerdo-parcial .postura2 {
 	right: 33%;
 	background: #FFD523;
+	}
+
+.acuerdo-parcial .postura2 p:before {
+	content: url(../img/acuerdoparcialder.svg);
+	position: absolute;
+	right: 200px;
 	}
