@@ -1,0 +1,10 @@
+---
+require:
+- jekyll-compass
+project_path: "."
+http_path: "/"
+css_path: css
+sass_dir: _sass
+images_dir: images
+javascripts_dir: javascripts
+output_style: compressed

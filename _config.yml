@@ -1,0 +1,17 @@
+# Site settings
+title: ¿Hay acuerdo?
+email: your-email@domain.com
+description: Infórmate sobre los los puntos de vista de diversos actores sociales con respecto a la Reforma del sistema Binominal. Elige dos y compara sus posiciones.
+baseurl: ""
+url: "http://yourdomain.com"
+analytics: "UA-XXXXX-X"
+
+# Google Spreadsheet
+gsheet: "https://docs.google.com/spreadsheets/d/1j7XjeGe4OJ8vYtDwx_ipOvR0z5gsafVnh9b37-CJ58A/pubhtml"
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+gems:
+- jekyll-compass
