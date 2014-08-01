@@ -1,3 +1,5 @@
+<a href="https://twitter.com/share" class="twitter-share-button" data-lang="en">Tweet</a>
+
 <div class="allPositions"></div>
 
 <script type="text/javascript">
@@ -14,7 +16,9 @@
   function showInfo(data, tabletop) {
     var allPositions = $(".allPositions");
     $.each(data, function(index, row){
-    	var p1 = "<div class='col-md-6'><div class='postura1 postura'><p>"+row.postura1+"</p></div></div>"
+    	var p1 = "<div class='col-md-6'><div class='postura1 postura'><p>"+row.postura1+"</p></div><a href='https://twitter.com/share' class='twitter-share-button' data-lang='es' data-text='"+row.postura1+"'>Twittear</a></div>"
+
+
     	var p2 = "<div class='col-md-6'><div class='postura2 postura'><p>"+row.postura2+"</p></div></div>"
     	var positionContainer = "<div class='"+row.class+" row position'>"+p1+p2+"</div>";
     	allPositions.append(positionContainer)
