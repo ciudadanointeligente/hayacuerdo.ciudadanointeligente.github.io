@@ -1,9 +1,10 @@
 # Site settings
 title: ¿Hay acuerdo?
-email: your-email@domain.com
+email: prensa@ciudadanointeligente.org
 description: Infórmate sobre los los puntos de vista de diversos actores sociales con respecto a la Reforma del sistema Binominal. Elige dos y compara sus posiciones.
 baseurl: ""
-url: "http://yourdomain.com"
+url: http://hayacuerdo.ciudadanointeligente.org
+# url: http://localhost:4000	#Development mode
 analytics: "UA-XXXXX-X"
 
 # Google Spreadsheet
