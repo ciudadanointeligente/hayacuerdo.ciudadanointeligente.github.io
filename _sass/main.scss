@@ -258,6 +258,22 @@ footer .footer-below {
     outline: 0;
 }
 
+ul#social {
+  list-style: none;
+}
+
+ul#social a {
+  background: #40BDF1;
+  padding: 0px 7px 2px;
+  border-radius: 3px;
+  color: #fff;
+  text-decoration: none;
+}
+
+ul#social a:hover {
+  background: #1795CF;
+}
+
 .scroll-top {
     z-index: 1049;
     position: fixed;
