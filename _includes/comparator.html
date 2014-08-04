@@ -1,0 +1,15 @@
+<div class="allPositions"></div>
+
+<script type="text/javascript">
+  window.onload = function() { init() };
+
+  var public_spreadsheet_url = "{{ site.gsheet }}";
+
+  function init() {
+    Tabletop.init( { key: public_spreadsheet_url,
+                     callback: showInfo,
+                     simpleSheet: true } )
+  }
+</script>
+
+<script type="text/javascript" src="../js/hayacuerdo.js"></script>
