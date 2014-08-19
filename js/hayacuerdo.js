@@ -4,7 +4,7 @@ $('#listado').on('change', 'select#lol', function(){
   
   Tabletop.init({ 
                   key: public_spreadsheet_url,
-                  callback: function(data, tabletop, sheet){
+                  callback: function(data, tabletop){
                     var allPositions = $(".allPositions");
                     allPositions.empty();
 
@@ -37,7 +37,7 @@ $('#listado').on('change', 'select#lol', function(){
                         posture2 = '<div class="col-md-2 acuerdototal postura2"><p>'+row.postura2+'</p></div>';
                       }
 
-                      var positionContainer = "<div class='"+row.class+" row position'>"+posture1+posture_img+posture2+"</div>";
+                      var positionContainer = "<div class='row'>"+posture1+posture_img+posture2+"</div>";
 
                       allPositions.append(positionContainer)
                     })
@@ -46,7 +46,7 @@ $('#listado').on('change', 'select#lol', function(){
                 })
 });
 
-function showInfo(data, tabletop, sheet='') {
+function showInfo(data, tabletop) {
 	var allPositions = $(".allPositions");
 
   var list = $('<select name="" id="lol"></select>');
@@ -57,8 +57,7 @@ function showInfo(data, tabletop, sheet='') {
 
   list.appendTo('#listado');
 
-  if( !sheet )
-    sheet = 'gobierno-oposicion';
+  sheet = 'gobierno-oposicion';
 
   
 	$.each(tabletop.sheets(sheet).all(), function(index, row){
