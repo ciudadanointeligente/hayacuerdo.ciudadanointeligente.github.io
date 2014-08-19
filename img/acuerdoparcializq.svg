@@ -1,23 +1,56 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Generator: Adobe Illustrator 15.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="140.866px" height="89.222px" viewBox="0 0 140.866 89.222" enable-background="new 0 0 140.866 89.222"
-	 xml:space="preserve">
-<g>
-	<g>
-		<path fill="#FFD523" d="M25.613,9.23H0v79.991h25.613V9.23z M12.223,76.417c2.25,0,4.074,1.821,4.074,4.073
-			c0,2.249-1.823,4.074-4.074,4.074c-2.251,0-4.074-1.824-4.074-4.074C8.149,78.238,9.972,76.413,12.223,76.417z"/>
-	</g>
-	<g>
-		<path fill="#FFD523" d="M87.313,0H56.6c-2.049,0-5.595,0.473-9.088,3.965L30.129,22.951c-0.11,0.112-0.737,0.248-0.737,0.395
-			v52.273c2.326,2.716,6.685,3.548,10.522,3.548h75.339c2.848,0,5.159-2.748,5.159-5.822c0-3.263-2.308-5.819-5.159-5.819H88.264
-			c-1.072,0-1.936-0.676-1.936-1.746s0.863-1.747,1.936-1.747h41.625c3.049,0,5.155-3.492,5.155-5.923
-			c0-3.264-2.306-6.885-5.155-6.885H88.264c-1.074,0-1.936-0.676-1.936-1.746c0-1.068,0.861-1.747,1.936-1.747h47.444
-			c1.417,0,2.709-0.419,3.647-1.617c0.929-1.2,1.51-2.618,1.51-4.243c0-3.258-2.308-6.943-5.157-6.943H88.264
-			c-1.072,0-1.936-0.677-1.936-1.748c0-1.07,0.863-1.746,1.936-1.746h39.325c2.801,0,5.157-3.49,5.157-5.865
-			c0-3.263-2.31-6.941-5.157-6.941H65.193c-2.328,0-3.913-1.164-3.913-3.573c0-2.247,1.585-3.411,3.97-3.411c0.206,0,0.45,0,0.642,0
-			h21.421c1.418,0,2.709-0.269,3.65-1.326c0.926-1.045,1.509-2.357,1.509-3.956C92.472,3.149,90.163,0.002,87.313,0z"/>
-	</g>
-</g>
-</svg>
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   id="Capa_1"
+   x="0px"
+   y="0px"
+   width="140.866px"
+   height="89.222px"
+   viewBox="0 0 140.866 89.222"
+   enable-background="new 0 0 140.866 89.222"
+   xml:space="preserve"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="acuerdoparcializq.svg"><metadata
+     id="metadata17"><rdf:RDF><cc:Work
+         rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /></cc:Work></rdf:RDF></metadata><defs
+     id="defs15" /><sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1366"
+     inkscape:window-height="702"
+     id="namedview13"
+     showgrid="false"
+     inkscape:zoom="2.6450875"
+     inkscape:cx="-0.64215398"
+     inkscape:cy="44.611"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g5" /><g
+     id="g3"><g
+       id="g5"><path
+         fill="#FFD523"
+         d="M25.613,9.23H0v79.991h25.613V9.23z M12.223,76.417c2.25,0,4.074,1.821,4.074,4.073    c0,2.249-1.823,4.074-4.074,4.074c-2.251,0-4.074-1.824-4.074-4.074C8.149,78.238,9.972,76.413,12.223,76.417z"
+         id="path7"
+         style="fill:#ffc348;fill-opacity:1" /></g><g
+       id="g9"><path
+         fill="#FFD523"
+         d="M87.313,0H56.6c-2.049,0-5.595,0.473-9.088,3.965L30.129,22.951c-0.11,0.112-0.737,0.248-0.737,0.395    v52.273c2.326,2.716,6.685,3.548,10.522,3.548h75.339c2.848,0,5.159-2.748,5.159-5.822c0-3.263-2.308-5.819-5.159-5.819H88.264    c-1.072,0-1.936-0.676-1.936-1.746s0.863-1.747,1.936-1.747h41.625c3.049,0,5.155-3.492,5.155-5.923    c0-3.264-2.306-6.885-5.155-6.885H88.264c-1.074,0-1.936-0.676-1.936-1.746c0-1.068,0.861-1.747,1.936-1.747h47.444    c1.417,0,2.709-0.419,3.647-1.617c0.929-1.2,1.51-2.618,1.51-4.243c0-3.258-2.308-6.943-5.157-6.943H88.264    c-1.072,0-1.936-0.677-1.936-1.748c0-1.07,0.863-1.746,1.936-1.746h39.325c2.801,0,5.157-3.49,5.157-5.865    c0-3.263-2.31-6.941-5.157-6.941H65.193c-2.328,0-3.913-1.164-3.913-3.573c0-2.247,1.585-3.411,3.97-3.411c0.206,0,0.45,0,0.642,0    h21.421c1.418,0,2.709-0.269,3.65-1.326c0.926-1.045,1.509-2.357,1.509-3.956C92.472,3.149,90.163,0.002,87.313,0z"
+         id="path11"
+         style="fill:#ffc348;fill-opacity:1" /></g></g></svg>
