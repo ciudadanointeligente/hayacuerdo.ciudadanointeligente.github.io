@@ -1,3 +1,5 @@
+<div id="listado"></div>
+
 <div class="allPositions"></div>
 
 <script type="text/javascript">
@@ -8,6 +10,7 @@
   function init() {
     Tabletop.init( { key: public_spreadsheet_url,
                      callback: showInfo,
+                     wanted: ['gobierno-oposicion', 'gobierno-educacion2020'],
                      simpleSheet: true } )
   }
 </script>
