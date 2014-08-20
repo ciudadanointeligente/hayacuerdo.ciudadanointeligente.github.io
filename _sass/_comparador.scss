@@ -23,11 +23,13 @@ h2 {
 	color: #3DB191;
 }
 
-.row {
-	background: #ebe9e7;
-	margin: 35px 20px;
-	padding-top: 12px;
-	padding-bottom: 12px;
+#main-content {
+	.row {
+		background: #ebe9e7;
+		margin: 35px 20px;
+		padding-top: 12px;
+		padding-bottom: 12px;
+	}
 }
 
 .texto {
@@ -37,6 +39,7 @@ h2 {
 .noacuerdo {
 	background: #EB6956;
 	padding: 10px;
+	min-height: 100px;
 }
 
 .noizquierda {
@@ -49,6 +52,7 @@ h2 {
 .acuerdoparcial {
 	background: #ffc348;
 	padding: 10px;
+	min-height: 100px;
 }
 
 .parcializquierda {
@@ -62,6 +66,7 @@ h2 {
 .acuerdototal {
 	background: #3DB191;
 	padding: 10px;
+	min-height: 100px;
 }
 
 .total {
@@ -78,4 +83,8 @@ img {
 
 .der{
 
+}
+
+#footer .row {
+	margin: 0px 20px 35px;
 }
