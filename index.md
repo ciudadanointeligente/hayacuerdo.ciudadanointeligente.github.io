@@ -2,4 +2,4 @@
 layout: default
 ---
 
-{% include googlecontent.html %}
+{% include comparator.html %}

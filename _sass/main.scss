@@ -10,6 +10,7 @@ body {
     -webkit-font-smoothing: antialiased;
     -webkit-text-shadow: rgba(0,0,0,.01) 0 0 1px;
     text-shadow: rgba(0,0,0,.01) 0 0 1px;
+    background-color: #F7F7F7;
 }
 
 p {
@@ -86,15 +87,16 @@ header .intro-text .skills {
 }
 
 .jumbotron {
-    height: 400px;
+    margin-top: 20px;
+    padding-top: 90px;
     color: #fff;
-    background: url(../img/portada1.jpg);
+    background: url(../img/portada1.jpg) no-repeat;
+    background-size: 100%;
     text-align: center;
     text-shadow: 2px 2px 2px #474747;
 }
 
 #footer {
-    height: 100px;
     padding-top: 20px;
     color: #fff;
     background-color: #37465D;
@@ -103,50 +105,12 @@ header .intro-text .skills {
     font-size: 13px;
 }
 
-@media(min-width:768px) {
-    header .container {
-        padding-top: 200px;
-        padding-bottom: 100px;
-    }
-
-    header .intro-text .name {
-        font-size: 4.75em;
-    }
-
-    header .intro-text .skills {
-        font-size: 1.75em;
-    }
-}
-
-@media(min-width:768px) {
-    .navbar-fixed-top {
-        padding: 25px 0;
-        -webkit-transition: padding .3s;
-        -moz-transition: padding .3s;
-        transition: padding .3s;
-    }
-
-    .navbar-fixed-top .navbar-brand {
-        font-size: 2em;
-        -webkit-transition: all .3s;
-        -moz-transition: all .3s;
-        transition: all .3s;
-    }
-
-    .navbar-fixed-top.navbar-shrink {
-        padding: 10px 0;
-    }
-
-    .navbar-fixed-top.navbar-shrink .navbar-brand {
-        font-size: 1.5em;
-    }
-}
-
 .navbar {
     text-transform: uppercase;
-    font-family: Open+Sans,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 400;
 	background: #000;
+    height: 67px;
 }
 
 .navbar a:focus {
@@ -180,24 +144,10 @@ section.success {
     background: #37465D;
 }
 
-@media(max-width:767px) {
-    section {
-        padding: 75px 0;
-    }
 
-    section.first {
-        padding-top: 75px;
-    }
-}
 
 .ul {
     list-style: none;
-}
-
-@media(min-width:767px) {
-    #portfolio .portfolio-item {
-        margin: 0 0 30px;
-    }
 }
 
 .btn-outline {
@@ -258,6 +208,22 @@ footer .footer-below {
     outline: 0;
 }
 
+ul#social {
+  list-style: none;
+}
+
+ul#social a {
+  background: #40BDF1;
+  padding: 0px 7px 2px;
+  border-radius: 3px;
+  color: #fff;
+  text-decoration: none;
+}
+
+ul#social a:hover {
+  background: #1795CF;
+}
+
 .scroll-top {
     z-index: 1049;
     position: fixed;
@@ -284,3 +250,56 @@ footer .footer-below {
 	}
 
 @import 'comparador';
+
+@media(min-width:767px) {
+    #portfolio .portfolio-item {
+        margin: 0 0 30px;
+    }
+}
+
+@media(min-width:768px) {
+    header .container {
+        padding-top: 200px;
+        padding-bottom: 100px;
+    }
+
+    header .intro-text .name {
+        font-size: 4.75em;
+    }
+
+    header .intro-text .skills {
+        font-size: 1.75em;
+    }
+
+    .navbar-fixed-top {
+        padding: 10px 0;
+        -webkit-transition: padding .3s;
+        -moz-transition: padding .3s;
+        transition: padding .3s;
+    }
+
+    .navbar-fixed-top .navbar-brand {
+        font-size: 2em;
+        -webkit-transition: all .3s;
+        -moz-transition: all .3s;
+        transition: all .3s;
+    }
+
+    .navbar-fixed-top.navbar-shrink {
+        padding: 10px 0;
+    }
+
+    .navbar-fixed-top.navbar-shrink .navbar-brand {
+        font-size: 1.5em;
+    }
+}
+
+@media(max-width:767px) {
+    section {
+        padding: 75px 0;
+    }
+
+    section.first {
+        padding-top: 75px;
+    }
+}
