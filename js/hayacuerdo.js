@@ -8,6 +8,10 @@ $('#listado').on('change', 'select#lol', function(){
                     var allPositions = $(".allPositions");
                     allPositions.empty();
 
+                    var title_compare = $("#title-compare");
+                    title_compare.empty();
+                    title_compare.append($('#listado select option:selected').text().split(' - ')[1]);
+
                     sheet_page = $('#listado select').val();
 
                     $.each(tabletop.sheets(sheet_page).all(), function(index, row){
@@ -85,7 +89,7 @@ function showInfo(data, tabletop) {
 }
 
 function drawpositions(index, row, sheet_page) {
-  var url_share = 'http://hayacuerdo.ciudadanointeligente.org/';
+  
   if( sheet_page.length )
     url_share = url_share + '?posture='+ sheet_page;
   var posture1_twitter = '<br /><a href="#" onclick="window.open(\'https://twitter.com/share?url='+url_share+'&amp;via=ciudadanoi&amp;hashtags=hayacuerdo&amp;text='+row.postura1.substr(0, 80)+'\',\'twitter\',\'width=450, height=250\')"><i class="fa fa-twitter"></i> twitter</a>',

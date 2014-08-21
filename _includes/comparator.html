@@ -1,8 +1,25 @@
-<div id="listado"></div>
+<div>
+  <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A nemo placeat ullam culpa quod, soluta tempore, ex in voluptatum natus sapiente assumenda aliquid, reiciendis rerum asperiores! Totam nulla ratione magnam? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque voluptates quis at eveniet explicabo possimus error, odio minus dolores maxime corporis illum omnis, quibusdam ratione id ullam veritatis laborum quam.</p>
+  <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim alias ipsa ea accusamus temporibus beatae veritatis et hic iusto voluptatibus atque ab tempore blanditiis, debitis similique libero inventore error. Autem. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto ab earum eum, accusamus, ad quod dolor expedita est, nobis repudiandae consectetur quo tenetur ut? Nobis quidem rem fugiat sint voluptas.</p>
+</div>
+
+<div class="row">
+  <div class="col-md-4 text-center">
+    <h3>Gobierno</h3>
+  </div>
+  <div class="col-md-4">
+    <div id="listado"></div>
+  </div>
+  <div class="col-md-4 text-center">
+    <h3 id="title-compare">FECH</h3>
+  </div>
+</div>
+
 
 <div class="allPositions"></div>
 
 <script type="text/javascript">
+  var url_share = '{{ site.url }}';
   window.onload = function() { init() };
 
   var public_spreadsheet_url = "{{ site.gsheet }}";
