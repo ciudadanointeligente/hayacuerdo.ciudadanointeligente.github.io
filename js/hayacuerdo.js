@@ -44,50 +44,56 @@ function showInfo(data, tabletop) {
     switch( sheet.name ) {
       case 'gobierno-fech' :
         name = 'Gobierno - FECH';
-        if( sheet.name == sheet_page )
+        if( sheet.name == sheet_page ) 
           active = 'selected="selected"';
         break;
       case 'gobierno-horizontal' :
         name = 'Gobierno - Horizontal';
-        title_compare.empty();
-        title_compare.append('Horizontal');
-        if( sheet.name == sheet_page )
+        if( sheet.name == sheet_page ) {
           active = 'selected="selected"';
+          title_compare.empty();
+          title_compare.append('Horizontal');
+        }
         break;
       case 'gobierno-evopoli' :
         name = 'Gobierno - Evópoli';
-        title_compare.empty();
-        title_compare.append('Evópoli');
-        if( sheet.name == sheet_page )
+        if( sheet.name == sheet_page ) {
           active = 'selected="selected"';
+          title_compare.empty();
+          title_compare.append('Evópoli');
+        }
         break;
       case 'gobierno-amplitud' :
         name = 'Gobierno - Amplitud';
-        title_compare.empty();
-        title_compare.append('Amplitud');
-        if( sheet.name == sheet_page )
+        if( sheet.name == sheet_page ) {
           active = 'selected="selected"';
+          title_compare.empty();
+          title_compare.append('Amplitud');
+        }
         break;
       case 'gobierno-rn' :
         name = 'Gobierno - RN (Instituto Libertad)';
-        title_compare.empty();
-        title_compare.append('RN (Instituto Libertad)');
-        if( sheet.name == sheet_page )
+        if( sheet.name == sheet_page ) {
           active = 'selected="selected"';
+          title_compare.empty();
+          title_compare.append('RN (Instituto Libertad)');
+        }
         break;
       case 'gobierno-udi' :
         name = 'Gobierno - UDI';
-        title_compare.empty();
-        title_compare.append('UDI');
-        if( sheet.name == sheet_page )
+        if( sheet.name == sheet_page ) {
           active = 'selected="selected"';
+          title_compare.empty();
+          title_compare.append('UDI');
+        }
         break;
       case 'gobierno-educacion2020' :
         name = 'Gobierno - Educación 2020';
-        title_compare.empty();
-        title_compare.append('Educación 2020');
-        if( sheet.name == sheet_page )
+        if( sheet.name == sheet_page ) {
           active = 'selected="selected"';
+          title_compare.empty();
+          title_compare.append('Educación 2020');
+        }
         break;
     }
 
