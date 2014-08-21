@@ -35,6 +35,10 @@ function showInfo(data, tabletop) {
   if( url.search.length )
     sheet_page = url.search.split('=')[1];
 
+  var title_compare = $("#title-compare");
+      
+      
+
   $.each(tabletop.sheets(), function(i, sheet){
     var name = '', active = '';
     switch( sheet.name ) {
@@ -45,31 +49,43 @@ function showInfo(data, tabletop) {
         break;
       case 'gobierno-horizontal' :
         name = 'Gobierno - Horizontal';
+        title_compare.empty();
+        title_compare.append('Horizontal');
         if( sheet.name == sheet_page )
           active = 'selected="selected"';
         break;
       case 'gobierno-evopoli' :
         name = 'Gobierno - Evópoli';
+        title_compare.empty();
+        title_compare.append('Evópoli');
         if( sheet.name == sheet_page )
           active = 'selected="selected"';
         break;
       case 'gobierno-amplitud' :
         name = 'Gobierno - Amplitud';
+        title_compare.empty();
+        title_compare.append('Amplitud');
         if( sheet.name == sheet_page )
           active = 'selected="selected"';
         break;
       case 'gobierno-rn' :
         name = 'Gobierno - RN (Instituto Libertad)';
+        title_compare.empty();
+        title_compare.append('RN (Instituto Libertad)');
         if( sheet.name == sheet_page )
           active = 'selected="selected"';
         break;
       case 'gobierno-udi' :
         name = 'Gobierno - UDI';
+        title_compare.empty();
+        title_compare.append('UDI');
         if( sheet.name == sheet_page )
           active = 'selected="selected"';
         break;
       case 'gobierno-educacion2020' :
         name = 'Gobierno - Educación 2020';
+        title_compare.empty();
+        title_compare.append('Educación 2020');
         if( sheet.name == sheet_page )
           active = 'selected="selected"';
         break;
@@ -90,10 +106,8 @@ function showInfo(data, tabletop) {
 
 function drawpositions(index, row, sheet_page) {
   
-  if( sheet_page.length )
-    url_share = url_share + '?posture='+ sheet_page;
-  var posture1_twitter = '<br /><a href="#" onclick="window.open(\'https://twitter.com/share?url='+url_share+'&amp;via=ciudadanoi&amp;hashtags=hayacuerdo&amp;text='+row.postura1.substr(0, 80)+'\',\'twitter\',\'width=450, height=250\')"><i class="fa fa-twitter"></i> twitter</a>',
-      posture2_twitter = '<br /><a href="#" onclick="window.open(\'https://twitter.com/share?url='+url_share+'&amp;via=ciudadanoi&amp;hashtags=hayacuerdo&amp;text='+row.postura2.substr(0, 80)+'\',\'twitter\',\'width=450, height=250\')"><i class="fa fa-twitter"></i> twitter</a>';
+  var posture1_twitter = '<br /><a href="#" onclick="window.open(\'https://twitter.com/share?url='+url_share+'%3Fposture='+sheet_page+'&amp;via=ciudadanoi&amp;hashtags=hayacuerdo&amp;text='+row.postura1.substr(0, 80)+'\',\'twitter\',\'width=450, height=250\')"><i class="fa fa-twitter"></i> twitter</a>',
+      posture2_twitter = '<br /><a href="#" onclick="window.open(\'https://twitter.com/share?url='+url_share+'%3Fposture='+sheet_page+'&amp;via=ciudadanoi&amp;hashtags=hayacuerdo&amp;text='+row.postura2.substr(0, 80)+'\',\'twitter\',\'width=450, height=250\')"><i class="fa fa-twitter"></i> twitter</a>';
 
   var posture1 = '',
       posture_img = '',
