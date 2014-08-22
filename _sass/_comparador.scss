@@ -6,126 +6,127 @@ p {
 }
 
 h2 {
-	text-align: center;
-	font-weight: 700;
-	margin-top: 70px;
+  text-align: center;
+  font-weight: 700;
+  margin-top: 70px;
 }
 
 h5, .h5 {
-	font-size: 18px;
-	line-height: 26px;
+  font-size: 18px;
+  line-height: 26px;
 }
 
 .fa-times {
-	color: #EB6956;
+  color: #EB6956;
 }
 
 .fa-exclamation {
-	color: #ffc348;
+  color: #FFA048;
 }
 
 .fa-check {
-	color: #3DB191;
+  color: #3DB191;
 }
 
 .allPositions {
-	.row {
-		background: #ebe9e7;
-		margin: 35px 0px;
-		padding: 12px;
-	}
+  .row {
+    background: #ebe9e7;
+    margin: 35px 0px;
+    padding: 12px;
+  }
 
-	.row.title {
-		margin-top: 10px;
-		margin-bottom: 40px;
-	}
+  .row.title {
+    margin-top: 10px;
+    margin-bottom: 40px;
+  }
 
-	p {
-		margin: 0;
-	}
+  p {
+    margin: 0;
+  }
 
-	.pull-right a {
-		background: #3B4766;
-		margin-right: 4px;
-		padding: 0px 4px;
-		border-radius: 3px;
-		cursor: pointer;
-	}
+  .pull-right a {
+    background: #3B4766;
+    margin-right: 4px;
+    padding: 0px 4px;
+    border-radius: 3px;
+    cursor: pointer;
+    display: inline-block;
+  }
 
-	.pull-right a:hover {
-		background: #4A90E2;
-		text-decoration: none;
-	}
+  .pull-right a:hover {
+    background: #4A90E2;
+    text-decoration: none;
+  }
 
-	i.fa.fa-plus {
-		font-size: 12px;
-	}
+  i.fa.fa-plus {
+    font-size: 12px;
+  }
 
-	.pull-right {
-		margin-top: 4px;
-	}
+  .pull-right {
+    margin-top: 4px;
+  }
 }
 
 .texto {
-	background: #ebe9e7;
+  background: #ebe9e7;
 }
 
 .noacuerdo {
-	background: #EB6956;
-	padding: 10px;
-	min-height: 100px;
+  background: #EB6956;
+  padding: 10px;
+  min-height: 100px;
 }
 
 .noizquierda {
-	background: #ebe9e7;
-	padding-left: 5px;
+  background: #ebe9e7;
+  padding-left: 5px;
 }
 
 .noderecha {
-	background: #ebe9e7;
-	padding-right: 5px;
+  background: #ebe9e7;
+  padding-right: 5px;
 }
 .acuerdoparcial {
-	background: #FFA048;
-	padding: 10px;
-	min-height: 100px;
+  background: #FFA048;
+  padding: 10px;
+  min-height: 100px;
 }
 
 .parcializquierda {
-	background: #ebe9e7;
-	padding-right: 5px;
+  background: #ebe9e7;
+  padding-right: 5px;
 }
 
 .parcialderecha {
-	background: #ebe9e7;
-	padding-left: 5px;
+  background: #ebe9e7;
+  padding-left: 5px;
 }
 
 .acuerdototal {
-	background: #3DB191;
-	padding: 10px;
-	min-height: 100px;
+  background: #3DB191;
+  padding: 10px;
+  min-height: 100px;
 }
 
 .total {
-	background: #ebe9e7;
-	padding: 11px 5px;
+  background: #ebe9e7;
+  padding: 11px 5px;
 }
 
 .total img {
-	width: 100%;
+  width: 100%;
 }
 
 .modal-body a {
-	color: #4A90E2;
+  color: #4A90E2;
 }
 
 img {
-	vertical-align: middle;
+  vertical-align: middle;
 }
 
 .izq{
-	
+  
 }
 
 .der{
@@ -133,5 +134,5 @@ img {
 }
 
 #footer .row {
-	margin: 0px 20px 35px;
+  margin: 0px 20px 35px;
 }

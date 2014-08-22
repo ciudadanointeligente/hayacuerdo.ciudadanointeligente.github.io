@@ -103,10 +103,27 @@ header .intro-text .skills {
     font-weight: 400;
 }
 
+div#title-compare {
+  text-align: right;
+}
+
 @media screen and (max-width: 768px) {
     .jumbotron p {
         font-size: 16px;
     }
+}
+
+@media screen and (max-width: 991px) {
+
+    .h1 {
+        font-size: 17px;
+        text-align: center;
+    }
+
+  div#title-compare {
+    text-align: center;
+  }
+
 }
 
 @media screen and (min-width: 768px) {
@@ -128,7 +145,7 @@ header .intro-text .skills {
     text-transform: uppercase;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
-	background: #000;
+  background: #000;
     height: 67px;
 }
 
@@ -272,8 +289,8 @@ ul#social a:hover {
 }
 
 .portfolio {
-	background: #F7F4EF;
-	}
+  background: #F7F4EF;
+  }
 
 @import 'comparador';
 
