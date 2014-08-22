@@ -35,6 +35,11 @@ h5, .h5 {
 		padding: 12px;
 	}
 
+	.row.title {
+		margin-top: 10px;
+		margin-bottom: 40px;
+	}
+
 	p {
 		margin: 0;
 	}
@@ -109,6 +114,10 @@ h5, .h5 {
 
 .total img {
 	width: 100%;
+}
+
+.modal-body a {
+	color: #4A90E2;
 }
 
 img {
