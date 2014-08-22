@@ -103,7 +103,7 @@ header .intro-text .skills {
     font-weight: 400;
 }
 
-div#title-compare {
+div.title-compare {
   text-align: right;
 }
 
@@ -119,10 +119,6 @@ div#title-compare {
         font-size: 17px;
         text-align: center;
     }
-
-  div#title-compare {
-    text-align: center;
-  }
 
 }
 
@@ -230,7 +226,7 @@ footer .footer-below {
 }
 
 #convocan img {
-    width: 100%;
+    max-width: 100%;
     max-height: 55px;
 }
 
