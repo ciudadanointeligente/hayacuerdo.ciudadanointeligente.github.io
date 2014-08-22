@@ -35,43 +35,65 @@ function showInfo(data, tabletop) {
   if( url.search.length )
     sheet_page = url.search.split('=')[1];
 
+  var title_compare = $("#title-compare");
+      
+      
+
   $.each(tabletop.sheets(), function(i, sheet){
     var name = '', active = '';
     switch( sheet.name ) {
       case 'gobierno-fech' :
         name = 'Gobierno - FECH';
-        if( sheet.name == sheet_page )
+        if( sheet.name == sheet_page ) 
           active = 'selected="selected"';
         break;
       case 'gobierno-horizontal' :
         name = 'Gobierno - Horizontal';
-        if( sheet.name == sheet_page )
+        if( sheet.name == sheet_page ) {
           active = 'selected="selected"';
+          title_compare.empty();
+          title_compare.append('Horizontal');
+        }
         break;
       case 'gobierno-evopoli' :
         name = 'Gobierno - Evópoli';
-        if( sheet.name == sheet_page )
+        if( sheet.name == sheet_page ) {
           active = 'selected="selected"';
+          title_compare.empty();
+          title_compare.append('Evópoli');
+        }
         break;
       case 'gobierno-amplitud' :
         name = 'Gobierno - Amplitud';
-        if( sheet.name == sheet_page )
+        if( sheet.name == sheet_page ) {
           active = 'selected="selected"';
+          title_compare.empty();
+          title_compare.append('Amplitud');
+        }
         break;
       case 'gobierno-rn' :
         name = 'Gobierno - RN (Instituto Libertad)';
-        if( sheet.name == sheet_page )
+        if( sheet.name == sheet_page ) {
           active = 'selected="selected"';
+          title_compare.empty();
+          title_compare.append('RN (Instituto Libertad)');
+        }
         break;
       case 'gobierno-udi' :
         name = 'Gobierno - UDI';
-        if( sheet.name == sheet_page )
+        if( sheet.name == sheet_page ) {
           active = 'selected="selected"';
+          title_compare.empty();
+          title_compare.append('UDI');
+        }
         break;
       case 'gobierno-educacion2020' :
         name = 'Gobierno - Educación 2020';
-        if( sheet.name == sheet_page )
+        if( sheet.name == sheet_page ) {
           active = 'selected="selected"';
+          title_compare.empty();
+          title_compare.append('Educación 2020');
+        }
         break;
     }
 
@@ -90,10 +112,8 @@ function showInfo(data, tabletop) {
 
 function drawpositions(index, row, sheet_page) {
   
-  if( sheet_page.length )
-    url_share = url_share + '?posture='+ sheet_page;
-  var posture1_twitter = '<a href="#" onclick="window.open(\'https://twitter.com/share?url='+url_share+'&amp;via=ciudadanoi&amp;hashtags=hayacuerdo&amp;text='+row.postura1.substr(0, 80)+'\',\'twitter\',\'width=450, height=250\')"><span><i class="fa fa-twitter"></i> twitter</a></span></div>',
-      posture2_twitter = '<a href="#" onclick="window.open(\'https://twitter.com/share?url='+url_share+'&amp;via=ciudadanoi&amp;hashtags=hayacuerdo&amp;text='+row.postura2.substr(0, 80)+'\',\'twitter\',\'width=450, height=250\')"><span><i class="fa fa-twitter"></i> twitter</a></span></div>';
+  var posture1_twitter = '<a href="#" onclick="window.open(\'https://twitter.com/share?url='+url_share+'%3Fposture='+sheet_page+'&amp;via=ciudadanoi&amp;hashtags=hayacuerdo&amp;text='+row.postura1.substr(0, 80)+'\',\'twitter\',\'width=450, height=250\')"><i class="fa fa-twitter"></i> twitter</a></div>',
+      posture2_twitter = '<a href="#" onclick="window.open(\'https://twitter.com/share?url='+url_share+'%3Fposture='+sheet_page+'&amp;via=ciudadanoi&amp;hashtags=hayacuerdo&amp;text='+row.postura2.substr(0, 80)+'\',\'twitter\',\'width=450, height=250\')"><i class="fa fa-twitter"></i> twitter</a></div>';
 
   var posture1 = '',
       posture_img = '',

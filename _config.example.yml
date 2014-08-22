@@ -2,13 +2,17 @@
 title: ¿Hay acuerdo?
 email: prensa@ciudadanointeligente.org
 description: Infórmate sobre los los puntos de vista de diversos actores sociales con respecto a la Reforma del sistema Binominal. Elige dos y compara sus posiciones.
-baseurl: ""
+author: "Ciudadano Inteligente"
 url: http://hayacuerdo.ciudadanointeligente.org/
 # url: http://localhost:4000	#Development mode
 analytics: "UA-41822715-4"
 
 # Google Spreadsheet
 gsheet: "https://docs.google.com/spreadsheets/d/1j7XjeGe4OJ8vYtDwx_ipOvR0z5gsafVnh9b37-CJ58A/pubhtml"
+
+#twitter
+twitter:
+  username: '@ciudadanoi'
 
 # Build settings
 markdown: kramdown

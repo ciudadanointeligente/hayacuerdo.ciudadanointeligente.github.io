@@ -3,12 +3,16 @@ title: ¿Hay Acuerdo?
 email: prensa@ciudadanointeligente.org
 description: La Reforma Educacional nos importa a todos. Infórmate sobre los puntos de vista de diversos actores sociales con respecto a las posturas del Gobierno. Elige un actor y compara sus posiciones.
 baseurl: ""
-url: http://localhost:4000/
+url: http://hayacuerdo.ciudadanointeligente.org/
 # url: http://localhost:4000	#Development mode
-analytics: "UA-12345678-9"
+analytics: "UA-41822715-4"
 
 # Google Spreadsheet
 gsheet: "https://docs.google.com/spreadsheets/d/1j7XjeGe4OJ8vYtDwx_ipOvR0z5gsafVnh9b37-CJ58A/pubhtml"
+
+#twitter
+twitter:
+  username: '@ciudadanoi'
 
 # Build settings
 markdown: kramdown
