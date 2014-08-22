@@ -38,6 +38,27 @@ h5, .h5 {
 	p {
 		margin: 0;
 	}
+
+	.pull-right a {
+		background: #3B4766;
+		margin-right: 4px;
+		padding: 0px 4px;
+		border-radius: 3px;
+		cursor: pointer;
+	}
+
+	.pull-right a:hover {
+		background: #4A90E2;
+		text-decoration: none;
+	}
+
+	i.fa.fa-plus {
+		font-size: 12px;
+	}
+
+	.pull-right {
+		margin-top: 4px;
+	}
 }
 
 .texto {
