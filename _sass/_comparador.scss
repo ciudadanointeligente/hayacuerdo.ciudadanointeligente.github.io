@@ -11,6 +11,11 @@ h2 {
 	margin-top: 70px;
 }
 
+h5, .h5 {
+	font-size: 18px;
+	line-height: 26px;
+}
+
 .fa-times {
 	color: #EB6956;
 }
@@ -23,12 +28,15 @@ h2 {
 	color: #3DB191;
 }
 
-#main-content {
+.allPositions {
 	.row {
 		background: #ebe9e7;
-		margin: 35px 20px;
-		padding-top: 12px;
-		padding-bottom: 12px;
+		margin: 35px 0px;
+		padding: 12px;
+	}
+
+	p {
+		margin: 0;
 	}
 }
 
@@ -44,23 +52,27 @@ h2 {
 
 .noizquierda {
 	background: #ebe9e7;
+	padding-left: 5px;
 }
 
 .noderecha {
 	background: #ebe9e7;
+	padding-right: 5px;
 }
 .acuerdoparcial {
-	background: #ffc348;
+	background: #FFA048;
 	padding: 10px;
 	min-height: 100px;
 }
 
 .parcializquierda {
 	background: #ebe9e7;
+	padding-right: 5px;
 }
 
 .parcialderecha {
 	background: #ebe9e7;
+	padding-left: 5px;
 }
 
 .acuerdototal {
@@ -71,6 +83,11 @@ h2 {
 
 .total {
 	background: #ebe9e7;
+	padding: 11px 5px;
+}
+
+.total img {
+	width: 100%;
 }
 
 img {

@@ -1,56 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Generator: Adobe Illustrator 15.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-
-<svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   version="1.1"
-   id="Capa_1"
-   x="0px"
-   y="0px"
-   width="140.866px"
-   height="89.222px"
-   viewBox="0 0 140.866 89.222"
-   enable-background="new 0 0 140.866 89.222"
-   xml:space="preserve"
-   inkscape:version="0.48.4 r9939"
-   sodipodi:docname="acuerdoparcializq.svg"><metadata
-     id="metadata17"><rdf:RDF><cc:Work
-         rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /></cc:Work></rdf:RDF></metadata><defs
-     id="defs15" /><sodipodi:namedview
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1"
-     objecttolerance="10"
-     gridtolerance="10"
-     guidetolerance="10"
-     inkscape:pageopacity="0"
-     inkscape:pageshadow="2"
-     inkscape:window-width="1366"
-     inkscape:window-height="702"
-     id="namedview13"
-     showgrid="false"
-     inkscape:zoom="2.6450875"
-     inkscape:cx="-0.64215398"
-     inkscape:cy="44.611"
-     inkscape:window-x="0"
-     inkscape:window-y="27"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="g5" /><g
-     id="g3"><g
-       id="g5"><path
-         fill="#FFD523"
-         d="M25.613,9.23H0v79.991h25.613V9.23z M12.223,76.417c2.25,0,4.074,1.821,4.074,4.073    c0,2.249-1.823,4.074-4.074,4.074c-2.251,0-4.074-1.824-4.074-4.074C8.149,78.238,9.972,76.413,12.223,76.417z"
-         id="path7"
-         style="fill:#ffc348;fill-opacity:1" /></g><g
-       id="g9"><path
-         fill="#FFD523"
-         d="M87.313,0H56.6c-2.049,0-5.595,0.473-9.088,3.965L30.129,22.951c-0.11,0.112-0.737,0.248-0.737,0.395    v52.273c2.326,2.716,6.685,3.548,10.522,3.548h75.339c2.848,0,5.159-2.748,5.159-5.822c0-3.263-2.308-5.819-5.159-5.819H88.264    c-1.072,0-1.936-0.676-1.936-1.746s0.863-1.747,1.936-1.747h41.625c3.049,0,5.155-3.492,5.155-5.923    c0-3.264-2.306-6.885-5.155-6.885H88.264c-1.074,0-1.936-0.676-1.936-1.746c0-1.068,0.861-1.747,1.936-1.747h47.444    c1.417,0,2.709-0.419,3.647-1.617c0.929-1.2,1.51-2.618,1.51-4.243c0-3.258-2.308-6.943-5.157-6.943H88.264    c-1.072,0-1.936-0.677-1.936-1.748c0-1.07,0.863-1.746,1.936-1.746h39.325c2.801,0,5.157-3.49,5.157-5.865    c0-3.263-2.31-6.941-5.157-6.941H65.193c-2.328,0-3.913-1.164-3.913-3.573c0-2.247,1.585-3.411,3.97-3.411c0.206,0,0.45,0,0.642,0    h21.421c1.418,0,2.709-0.269,3.65-1.326c0.926-1.045,1.509-2.357,1.509-3.956C92.472,3.149,90.163,0.002,87.313,0z"
-         id="path11"
-         style="fill:#ffc348;fill-opacity:1" /></g></g></svg>
+<svg width="141px" height="85px" viewBox="0 0 141 85" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.0.4 (8054) - http://www.bohemiancoding.com/sketch -->
+    <title>acuerdoparcializq</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Introduction" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="acuerdoparcializq" sketch:type="MSLayerGroup" fill="#FFA048">
+            <g id="g3" sketch:type="MSShapeGroup">
+                <g id="g5" transform="translate(0.000000, 4.000000)">
+                    <path d="M25.613,0.23 L0,0.23 L0,80.221 L25.613,80.221 L25.613,0.23 L25.613,0.23 Z M12.223,67.417 C14.473,67.417 16.297,69.238 16.297,71.49 C16.297,73.739 14.474,75.564 12.223,75.564 C9.972,75.564 8.149,73.74 8.149,71.49 C8.149,69.238 9.972,67.413 12.223,67.417 L12.223,67.417 Z" id="path7"></path>
+                </g>
+                <g id="g9" transform="translate(29.000000, 0.000000)">
+                    <path d="M58.313,0 L27.6,0 C25.551,0 22.005,0.473 18.512,3.965 L1.129,22.951 C1.019,23.063 0.392,23.199 0.392,23.346 L0.392,75.619 C2.718,78.335 7.077,79.167 10.914,79.167 L86.253,79.167 C89.101,79.167 91.412,76.419 91.412,73.345 C91.412,70.082 89.104,67.526 86.253,67.526 L59.264,67.526 C58.192,67.526 57.328,66.85 57.328,65.78 C57.328,64.71 58.191,64.033 59.264,64.033 L100.889,64.033 C103.938,64.033 106.044,60.541 106.044,58.11 C106.044,54.846 103.738,51.225 100.889,51.225 L59.264,51.225 C58.19,51.225 57.328,50.549 57.328,49.479 C57.328,48.411 58.189,47.732 59.264,47.732 L106.708,47.732 C108.125,47.732 109.417,47.313 110.355,46.115 C111.284,44.915 111.865,43.497 111.865,41.872 C111.865,38.614 109.557,34.929 106.708,34.929 L59.264,34.929 C58.192,34.929 57.328,34.252 57.328,33.181 C57.328,32.111 58.191,31.435 59.264,31.435 L98.589,31.435 C101.39,31.435 103.746,27.945 103.746,25.57 C103.746,22.307 101.436,18.629 98.589,18.629 L36.193,18.629 C33.865,18.629 32.28,17.465 32.28,15.056 C32.28,12.809 33.865,11.645 36.25,11.645 L36.892,11.645 L58.313,11.645 C59.731,11.645 61.022,11.376 61.963,10.319 C62.889,9.274 63.472,7.962 63.472,6.363 C63.472,3.149 61.163,0.002 58.313,0 L58.313,0 Z" id="path11"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
