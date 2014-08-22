@@ -112,7 +112,7 @@ header .intro-text .skills {
 #footer {
     padding-top: 20px;
     color: #fff;
-    background-color: #000;
+    background-color: #3B4766;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     font-size: 13px;
@@ -181,6 +181,8 @@ section.success {
     background: #fff;
 }
 
+// FOOTER
+
 footer {
     color: #fff;
     background: #fff;
@@ -202,6 +204,10 @@ footer .footer-col {
 footer .footer-below {
     padding: 25px 0;
     background-color: #37465D;
+}
+
+#convocan img {
+    width: 100%;
 }
 
 .btn-social {
@@ -319,7 +325,6 @@ input, button, select, textarea {
     -webkit-text-shadow: rgba(0,0,0,0.01) 0 0 1px;
     text-shadow: rgba(0,0,0,0.01) 0 0 1px;
     height: 60px;
-    width: 100%;
 }
 
 @media(max-width:767px) {
