@@ -8,7 +8,7 @@ $('#listado').on('change', 'select#lol', function(){
                     var allPositions = $(".allPositions");
                     allPositions.empty();
 
-                    var title_compare = $("#title-compare");
+                    var title_compare = $(".title-compare");
                     title_compare.empty();
                     title_compare.append($('#listado select option:selected').text().split(' - ')[1]);
 
@@ -35,7 +35,7 @@ function showInfo(data, tabletop) {
   if( url.search.length )
     sheet_page = url.search.split('=')[1];
 
-  var title_compare = $("#title-compare");
+  var title_compare = $(".title-compare");
       
       
 
@@ -125,9 +125,9 @@ function drawpositions(index, row, sheet_page) {
   view_more_b = '<div class="pull-right"><span><a data-toggle="modal" data-target="#myModal'+index+'b"><i class="fa fa-plus"></i> ver más</a></span>';
   
   if( row.class === 'noacuerdo' ) {
-    posture1 = '<div class="col-md-2 noacuerdo postura1"><p>'+row.postura1+view_more_a+posture1_twitter+'</p></div>';
-    posture_img = '<div class="col-md-2 hidden-xs noizquierda"><img class="izq" src="img/noacuerdoizq.svg" alt="lala"></div><div class="col-md-2 col-md-offset-1 text-center texto"><i class="hidden-md hidden-lg fa fa-times fa-5x"></i></div><div class="col-md-2 col-md-offset-1 hidden-xs text-right noderecha"><img class="der" src="img/noacuerdoder.svg" alt="lala"></div>';
-    posture2 = '<div class="col-md-2 noacuerdo postura2"><p>'+row.postura2+view_more_b+posture2_twitter+'</p></div>';
+    posture1 = '<div class="col-md-2 noacuerdo postura1"><p><span class="hidden-md hidden-lg">Gobierno: </span>'+row.postura1+view_more_a+posture1_twitter+'</p></div>';
+    posture_img = '<div class="col-md-2 hidden-xs noizquierda"><img class="izq" src="img/noacuerdoizq.svg" alt="lala"></div><div class="col-md-2 col-md-offset-1 text-center texto"><i class="hidden-md hidden-lg fa fa-times fa-3x"></i></div><div class="col-md-2 col-md-offset-1 hidden-xs text-right noderecha"><img class="der" src="img/noacuerdoder.svg" alt="lala"></div>';
+    posture2 = '<div class="col-md-2 noacuerdo postura2"><p><span class="hidden-md hidden-lg title-compare">FECH</span><span class="hidden-md hidden-lg">: </span>'+row.postura2+view_more_b+posture2_twitter+'</p></div>';
     
     modal_posture_a = '<div class="modal fade" id="myModal'+index+'a" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true"><div class="modal-dialog"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button><h4 class="modal-title" id="myModalLabel">'+row.postura1+'</h4></div><div class="modal-body">'+row.postura1txtlargo+'</div><div class="modal-footer"></div></div></div></div>';
     modal_posture_b = '<div class="modal fade" id="myModal'+index+'b" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true"><div class="modal-dialog"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button><h4 class="modal-title" id="myModalLabel">'+row.postura2+'</h4></div><div class="modal-body">'+row.postura2txtlargo+'</div><div class="modal-footer"></div></div></div></div>';
@@ -135,7 +135,7 @@ function drawpositions(index, row, sheet_page) {
 
   if( row.class === 'acuerdoparcial' ) {
     posture1 = '<div class="col-md-2 col-md-offset-1 acuerdoparcial postura1"><p>'+row.postura1+view_more_a+posture1_twitter+'</p></div>';
-    posture_img = '<div class="col-md-2 hidden-xs parcialderecha"><img class="izq" src="img/acuerdoparcializq.svg" alt="lala"></div><div class="col-md-2 text-center texto"><i class="hidden-sm hidden-md hidden-lg fa fa-exclamation fa-5x"></i></div><div class="col-md-2 hidden-xs text-right parcializquierda"><img class="der" src="img/acuerdoparcialder.svg" alt="lala"></div>';
+    posture_img = '<div class="col-md-2 hidden-xs parcialderecha"><img class="izq" src="img/acuerdoparcializq.svg" alt="lala"></div><div class="col-md-2 text-center texto"><i class="hidden-sm hidden-md hidden-lg fa fa-exclamation fa-3x"></i></div><div class="col-md-2 hidden-xs text-right parcializquierda"><img class="der" src="img/acuerdoparcialder.svg" alt="lala"></div>';
     posture2 = '<div class="col-md-2 acuerdoparcial postura2"><p>'+row.postura2+view_more_b+posture2_twitter+'</p></div>';
 
     modal_posture_a = '<div class="modal fade" id="myModal'+index+'a" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true"><div class="modal-dialog"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button><h4 class="modal-title" id="myModalLabel">'+row.postura1+'</h4></div><div class="modal-body">'+row.postura1txtlargo+'</div><div class="modal-footer"></div></div></div></div>';
@@ -144,7 +144,7 @@ function drawpositions(index, row, sheet_page) {
 
   if( row.class === 'acuerdototal' ) {
     posture1 = '<div class="col-md-2 col-md-offset-3 acuerdototal postura1"><p>'+row.postura1+view_more_a+posture1_twitter+'</p></div>';
-    posture_img = '<div class="col-md-2 total text-center"><img class="izq hidden-xs hidden-sm" src="img/acuerdototal.svg" alt="lala"><i class="col-md-2 hidden-sm hidden-md hidden-lg fa fa-check fa-5x"></i></div>';
+    posture_img = '<div class="col-md-2 total text-center"><img class="izq hidden-xs hidden-sm" src="img/acuerdototal.svg" alt="lala"><i class="col-md-2 hidden-sm hidden-md hidden-lg fa fa-check fa-3x"></i></div>';
     posture2 = '<div class="col-md-2 acuerdototal postura2"><p>'+row.postura2+view_more_b+posture2_twitter+'</p></div>';
 
     modal_posture_a = '<div class="modal fade" id="myModal'+index+'a" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true"><div class="modal-dialog"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button><h4 class="modal-title" id="myModalLabel">'+row.postura1+'</h4></div><div class="modal-body">'+row.postura1txtlargo+'</div><div class="modal-footer"></div></div></div></div>';
