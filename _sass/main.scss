@@ -87,19 +87,32 @@ header .intro-text .skills {
 }
 
 .jumbotron {
-    margin-top: 20px;
-    padding-top: 90px;
+    padding: 60px 0;
     color: #fff;
-    background: url(../img/portada1.jpg) no-repeat;
+    background: url(../img/portada1.png) no-repeat;
     background-size: 100%;
     text-align: center;
-    text-shadow: 2px 2px 2px #474747;
+}
+
+.jumbotron h1, .jumbotron .h1 {
+    font-weight: 300;
+}
+
+.jumbotron p {
+    font-size: 30px;
+    font-weight: 400;
+}
+
+@media screen and (min-width: 768px) {
+    .jumbotron h1, .jumbotron .h1 {
+        font-size: 85px;
+    }
 }
 
 #footer {
     padding-top: 20px;
     color: #fff;
-    background-color: #37465D;
+    background-color: #000;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     font-size: 13px;
@@ -292,6 +305,21 @@ ul#social a:hover {
     .navbar-fixed-top.navbar-shrink .navbar-brand {
         font-size: 1.5em;
     }
+}
+
+// INPUT
+
+input, button, select, textarea {
+    font-size: 21px;
+    background: #3B4766;
+    border-color: rgba(255, 255, 255, 0);
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-shadow: rgba(0,0,0,0.01) 0 0 1px;
+    text-shadow: rgba(0,0,0,0.01) 0 0 1px;
+    height: 60px;
+    width: 100%;
 }
 
 @media(max-width:767px) {
