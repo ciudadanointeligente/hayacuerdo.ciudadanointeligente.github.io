@@ -112,8 +112,8 @@ function showInfo(data, tabletop) {
 
 function drawpositions(index, row, sheet_page) {
   
-  var posture1_twitter = '<br /><a href="#" onclick="window.open(\'https://twitter.com/share?url='+url_share+'%3Fposture='+sheet_page+'&amp;via=ciudadanoi&amp;hashtags=hayacuerdo&amp;text='+row.postura1.substr(0, 80)+'\',\'twitter\',\'width=450, height=250\')"><i class="fa fa-twitter"></i> twitter</a>',
-      posture2_twitter = '<br /><a href="#" onclick="window.open(\'https://twitter.com/share?url='+url_share+'%3Fposture='+sheet_page+'&amp;via=ciudadanoi&amp;hashtags=hayacuerdo&amp;text='+row.postura2.substr(0, 80)+'\',\'twitter\',\'width=450, height=250\')"><i class="fa fa-twitter"></i> twitter</a>';
+  var posture1_twitter = '<a href="#" onclick="window.open(\'https://twitter.com/share?url='+url_share+'%3Fposture='+sheet_page+'&amp;via=ciudadanoi&amp;hashtags=hayacuerdo&amp;text='+row.postura1.substr(0, 80)+'\',\'twitter\',\'width=450, height=250\')"><i class="fa fa-twitter"></i> twitter</a></div>',
+      posture2_twitter = '<a href="#" onclick="window.open(\'https://twitter.com/share?url='+url_share+'%3Fposture='+sheet_page+'&amp;via=ciudadanoi&amp;hashtags=hayacuerdo&amp;text='+row.postura2.substr(0, 80)+'\',\'twitter\',\'width=450, height=250\')"><i class="fa fa-twitter"></i> twitter</a></div>';
 
   var posture1 = '',
       posture_img = '',
@@ -121,8 +121,8 @@ function drawpositions(index, row, sheet_page) {
       view_more_a = '',
       view_more_b = '';
 
-  view_more_a = '<br><i class="fa fa-plus"></i> <a data-toggle="modal" data-target="#myModal'+index+'a">ver más</a>';
-  view_more_b = '<br><i class="fa fa-plus"></i> <a data-toggle="modal" data-target="#myModal'+index+'b">ver más</a>';
+  view_more_a = '<div class="pull-right"><span><a data-toggle="modal" data-target="#myModal'+index+'a"><i class="fa fa-plus"></i> ver más</a></span>';
+  view_more_b = '<div class="pull-right"><span><a data-toggle="modal" data-target="#myModal'+index+'b"><i class="fa fa-plus"></i> ver más</a></span>';
   
   if( row.class === 'noacuerdo' ) {
     posture1 = '<div class="col-md-2 noacuerdo postura1"><p>'+row.postura1+view_more_a+posture1_twitter+'</p></div>';
