@@ -8,9 +8,6 @@ $('#listado').on('change', 'select#lol', function(){
                     var allPositions = $(".allPositions");
                     allPositions.empty();
 
-                    var title_compare = $(".title-compare");
-                    title_compare.empty();
-
                     sheet_page = $('#listado select').val();
 
                     $.each(tabletop.sheets(sheet_page).all(), function(index, row){
@@ -18,12 +15,18 @@ $('#listado').on('change', 'select#lol', function(){
                       var positionContainer = drawpositions(index, row, sheet_page);
 
                       allPositions.append(positionContainer)
-                    })
-                    title_compare.append($('#listado select option:selected').text().split(' - ')[1]);
+                    });
+                    change_name();
                   },
                   simpleSheet: true 
                 })
 });
+
+function change_name() {
+  var title_compare = $(".title-compare");
+  title_compare.empty();
+  title_compare.append($('#listado select option:selected').text().split(' - ')[1]);
+}
 
 function showInfo(data, tabletop) {
   var url = window.location;
