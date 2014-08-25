@@ -10,7 +10,6 @@ $('#listado').on('change', 'select#lol', function(){
 
                     var title_compare = $(".title-compare");
                     title_compare.empty();
-                    title_compare.append($('#listado select option:selected').text().split(' - ')[1]);
 
                     sheet_page = $('#listado select').val();
 
@@ -20,6 +19,7 @@ $('#listado').on('change', 'select#lol', function(){
 
                       allPositions.append(positionContainer)
                     })
+                    title_compare.append($('#listado select option:selected').text().split(' - ')[1]);
                   },
                   simpleSheet: true 
                 })
