@@ -398,3 +398,16 @@ input, button, select, textarea {
         padding-top: 75px;
     }
 }
+
+@media (max-width: 991px) {
+  .hidden-xs {
+    display: none!important;
+  }
+}
+
+// PARCHE FEO, ARREGLAR Y BORRAR
+@media (max-width: 991px) and (min-width: 768px) {
+    .hidden-sm.fa {
+    display: block!important;
+  }
+}
